@@ -1,3 +1,6 @@
+## Please Notice - this package is a fork of [rollup-plugin-terser](https://github.com/TrySound/rollup-plugin-terser).
+## most of this code was not written by us, it was only slightly modified in order to support providing the API with generated sourcemaps
+
 # rollup-plugin-terser [![Travis Build Status][travis-img]][travis]
 
 [travis-img]: https://travis-ci.org/TrySound/rollup-plugin-terser.svg
@@ -28,7 +31,7 @@ rollup({
 ## Why named export?
 
 1. Module is a namespace. Default export often leads to function/component per file dogma and makes code less maintainable.
-2. Interop with commonjs is broken in many cases. A ways to fight them are known. 
+2. Interop with commonjs is broken in many cases. A ways to fight them are known.
 3. Show me any good language with default exports. It's historical javascriptism.
 
 
