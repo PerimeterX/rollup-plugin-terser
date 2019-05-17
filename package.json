@@ -1,6 +1,6 @@
 {
-  "name": "rollup-plugin-terser",
-  "version": "4.0.4",
+  "name": "rollup-plugin-terser-support-generated-sourcemaps",
+  "version": "4.0.4-1",
   "description": "Rollup plugin to minify generated es bundle",
   "main": "index.js",
   "files": [
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TrySound/rollup-plugin-terser.git"
+    "url": "git+https://github.com/TrySound/rollup-plugin-terser-support-generated-sourcemaps.git"
   },
   "keywords": [
     "rollup",
